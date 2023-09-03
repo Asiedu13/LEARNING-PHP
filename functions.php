@@ -70,7 +70,7 @@ function dob($element) {
     return $element * 2;
 };
 echo $sum('dob', 10, 20, 34, 322);
-echo "<br/>";
+echo '<br/>';
 echo $sum(fn($element)=> $element * 3, 3, 4, 5, 6, 7, 8);
 // $array = [2, 3, 4, 5, 6];
 
