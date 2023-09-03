@@ -2,10 +2,10 @@
 /* Match expression */
 $color = 'pink';
 $whatToDo = match($color) {
-    'blue' => "Kill the cat blood",
-    'green' => "Drug the pirate",
+    'blue' => 'Kill the cat blood',
+    'green' => 'Drug the pirate',
     'orange', 'pink' => 'Throw a bomb',
-    default => "You got lucky. No task!"
+    default => 'You got lucky. No task!'
 };
 
 echo $whatToDo;
@@ -20,7 +20,7 @@ function sayMyName(string $myName) : int {
     return 1;
 }
 
-sayMyName("Prince");
+sayMyName('Prince');
 
 // function addAll(...$nums) {
 //     return array_sum($nums);
